@@ -246,4 +246,135 @@
     margin-left: 20px;
     margin-bottom: 30px;
   }
-   
+
+  /* -------------------------------FOOTER-------------- */
+
+.footer {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .footer__container-1 {
+    display: flex;
+  }
+  
+  .footer__block-1 {
+    
+    padding-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    width: 100%;
+    height: 230px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  
+  .footer__contact-dates,
+  .footer__icons,
+  .footer__english {
+    
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  
+  .footer__navegation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    width: 150px;
+    height: 180px;
+    align-content: space-around;
+    justify-content: space-evenly;
+  }
+  
+  
+  
+  /* --------------PARTE 2 */
+  
+  .footer__container-2 {
+    color: white;
+    display: flex;
+    font-size: 17px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+  }
+  
+  .footer__container-social {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+    width: 315px;
+  }
+  
+  /*  ----------------------------------PARTE 3-------------- */
+  
+  .footer__container-3 {
+    color: white;
+    display: flex;
+    height: 200px;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+  }
+  
+  .footer__container-information {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  .footer__container-information-data {
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 15px;
+  }
+  
+  /* -------------------------PARTE 4------------------ */
+  
+  .footer__container-4 {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer__container-title {
+    display: flex;
+  }
+  
+  .footer__container-title-1 {
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    padding: 50px 0px 30px 100px;
+    font-size: 14px;
+  }
+  
+  .footer__container-center {
+    display: flex;
+  }
+  
+  .footer__container-center-places {
+    color: white;
+    flex-direction: row;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 20px 5px 30px 21px;
+  }
+  
+  .footer__container-end {
+    display: flex;
+  }
+  
+  .footer__container-end-number {
+    text-decoration: none;
+    color: white;
+    padding: 20px 0px 0px 110px;
+  }
+  
