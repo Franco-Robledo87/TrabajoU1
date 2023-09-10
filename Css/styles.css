@@ -606,4 +606,149 @@
       font-size: 13px;
     }
   }
+
+  /* ----------------------1024----------------- */
+
+@media (min-width: 1024px) {
+  
+    .header {
+      width: 100%;
+    }
+  
+    .main {
+      display: flex;
+      background-color: black;
+      width: 100%;
+    }
+  
+    .main__contenedor-contenedor {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background-color: black;
+    }
+  
+    .main__principal {
+      width: 70%;
+    }
+  
+    .main__contenedor-letras {
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      height: 160px;
+      width: 100%;
+      margin-top: 40px;
+    }
+  
+    .main__titulo {
+      color: white;
+      font-weight: bold;
+      line-height: 1.6;
+      font-size: 14px;
+      padding-top: 40px;
+      padding-left: 30px;
+      margin-top: -5px;
+    }
+  
+    .main__descripcion {
+      color: white;
+      padding-top: 5px;
+      font-size: 32px;
+      font-weight: bold;
+      padding-left: 30px;
+    }
+  
+    .main__contenedor {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 5px 5px 10px 5px;
+      height: 100px;
+      justify-content: center;
+      align-items: end;
+    }
+  
+    .main__contenedor-dash {
+      width: 100%;
+    }
+  
+    .cards__container-1,
+    .cards__container-2,
+    .cards__container-3,
+    .cards__container-4,
+    .cards__container-5,
+    .cards__container-6{
+      flex-basis: calc(30% - 20px);
+    }
+  .cards__container-2{
+    padding-bottom: 80px;
+  }
+  
+  .cards__container-1{
+    padding-bottom: 25px;
+  }
+   .cards__container-4{
+    padding-bottom: 76px;
+   }
+  
+   .cards__container-6{
+    padding-bottom: 55px;
+   }
+  
+   
+    .Featured__gallery-1,
+    .Featured__gallery-2,
+    .Featured__gallery-3,
+    .Featured__gallery-4{
+      margin: 10px;
+      flex-basis: calc(20% - 20px);
+      flex-grow: 1;
+      background-color: black;
+   }
+  
+   .Featured__gallery-3{
+    padding-bottom: 12px;
+   }
+    
+   .Featured__gallery-4{
+    padding-bottom: 18px;
+   }
+    .footer__block-1 {
+      width: 100%;
+    }
+  
+    .footer__navegation {
+      justify-content: space-around;
+      
+    }
+  
+   
+  
+    .footer__container-3 {
+      width: 600px;
+      height: 80px;
+    }
+  
+    .footer__container-information {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 10px;
+      padding-right: 10px;
+    }
+  
+    .footer__container-information-data {
+      padding-right: 15px;
+      font-size: 15px;
+    }
+  
+    .footer__container-4 ,
+    .footer__final {
+    display: flex;
+    width:100%;
+    align-items: end;
+    justify-content: space-around;
+    }
+   
+  }
   
