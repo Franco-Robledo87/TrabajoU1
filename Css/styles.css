@@ -496,6 +496,7 @@
       flex-basis: calc(33.33% - 20px);
       flex-grow: 1;
       background-color: black;
+      
     }
   
     .Featured__gallery-2{
@@ -764,6 +765,27 @@
   .cards__container-5{
     padding-bottom: 25px;
   }
+
+  .cards__container-1,
+  .cards__container-2,
+  .cards__container-3,
+  .cards__container-4,
+  .cards__container-5,
+  .cards__container-6 {
+    max-width: 350px;
+  }
+  
+  .Featured__gallery-1,
+    .Featured__gallery-2,
+    .Featured__gallery-3,
+    .Featured__gallery-4 {
+        max-width: 350px;
+    }
+  
+ .Featured__title{
+    padding-left: 35px;
+ }   
+  
   .footer__icons{
     display: flex;
     width: 50%;
